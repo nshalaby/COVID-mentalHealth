@@ -25,17 +25,5 @@ as cases increase how the 1% gain billions
 
 Lock downs, strong arm police vs mental helth issues 
 
-
-Immune system vs boosters to the immune system
-
-
-NOTE TO SELF:
-https://github.com/aryamanarora/coronavirus
-
-Do this but instead of data of covid-19 use mental health increase pre covid up to post covid from this
-source: 
-
-https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30308-4/fulltext#seccestitle150
-
 https://osf.io/7peyq/wiki/home/
 This is where you'll get your data 
