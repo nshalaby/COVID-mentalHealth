@@ -1,9 +1,11 @@
-# COVID-mentalHealth
+# COVID Mental Health Visualization
 
 Project Part A
 COMP 4304
 
 Part A submission (due midnight Oct 23, 2020)
+
+Using D3.js
 
 The media has well informed us of the pitfalls of the US response to COVID-19 compared to the rest of the world.
 The media has lacked a full picture of what lockdowns are doing to people's mental health.
