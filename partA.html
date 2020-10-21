@@ -3,6 +3,107 @@ COMP 4304
 
 Part A submission (due midnight Oct 23, 2020)
 
-Propose and implement (using d3.js) one visualization design which addresses the broad question:
 
-How successful has the U.S.A. been in responding to the COVID-19 pandemic compared to other countries?
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Part A Project Data Visualization</title>
+
+        <style>
+          /* css can go here */
+
+          .fields
+          {
+            width: 50%;
+            margin: 0 auto;
+
+          }
+        </style>
+    </head>
+
+    
+
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+
+
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+  
+
+    <body>
+    
+            
+      <h1>Assignment 3 COMP4304</h1>
+      <p>
+          <b>Submitted by:</b> Nadia Shalaby 201108248
+      </p>
+      <h2>Attribution</h2>
+      <p>
+      <li>https://reactjs.org/docs/react-component.html#constructor</li>
+      <li> https://www.dashingd3js.com/lessons/making-dynamic-scales-and-axes</li>
+      <li> https://stackoverflow.com/questions/14432165/uncaught-syntaxerror-unexpected-token-with-json-parse</li>
+      <li> https://github.com/aryamanarora/coronavirus</li>
+      <li>https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30308-4/fulltext#seccestitle150</li>
+      <li>https://osf.io/7peyq/wiki/home/</li>
+      </p>
+      <h2>Solution</h2>
+      <p>
+        
+        
+        The media has informed us of the pitfalls of the US response to COVID-19 compared to the rest of the world.
+       
+        I found this interesting data about how lockdowns and mental health rises are positively co related.
+        The data was taken from reddit posts and sorted into categroies.
+
+        The largest ones being addiction and suicidewatch. 
+        These both have increased dramatically since covid-19.
+        
+      
+      
+        
+        How successful has the U.S.A. been in responding to the COVID-19 pandemic compared to other countries?
+
+        This question is broad and I chose to look at the mental health data to show that the lock down measures and the government inititives 
+        negively impact mental helath across the world.
+        
+        In my finial submission I will add a map that will hopefully show the regions in which mental health is the best and worst. 
+        
+        If I have time I will integrate the economy into my data.
+
+        This Graph is zoomable and you can move up and down the y-axis. The data is linked to the  keys and you can add and remove the 3 categories. 
+        
+        
+        
+        </p>
+        <center>
+          <text x="300" y="15" class="small">Number of People vs Year Graph of Covid 19 Timeline</text>
+          
+        </center>
+        
+
+      <div id="stacked_area_chart"></div>
+
+      
+      
+      <script type="text/babel" src="stacked_area_chart.js">
+
+      
+      
+      
+      </script>
+
+                
+        
+    
+  </body>
+</html>
+
+
+
+
